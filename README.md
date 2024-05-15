@@ -35,16 +35,16 @@ The project contains the following files and directories:
 
 ## Getting Started
 
-Once you have set up the project, you can start practicing advanced CSS techniques by completing the following tasks:
+Once you have set up the project, you can start practicing advanced CSS techniques by completing the following iterations:
 
-### Task 1: Using Variables
+### Iteration 1: Using Variables
 
 Enhance the styling of the product items on the dashboard by utilizing CSS variables. Define variables for colors, font sizes, and other common styles to maintain consistency and facilitate easier customization.
 
-### Task 2: Nesting Styles
+### Iteration 2: Nesting Styles
 
 Refactor the CSS code to leverage nesting for better organization and readability. Use nesting to target nested elements within the HTML structure and apply styles more efficiently.
 
-### Task 3: Modularizing Styles with Imports
+### Iteration 3: Modularizing Styles with Imports
 
 Break down the CSS code into modular files based on different components or sections of the dashboard. Use `@import` to import these modular CSS files into the main stylesheet, keeping the codebase organized and manageable.
