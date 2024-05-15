@@ -4,7 +4,11 @@ Welcome to the Advanced CSS Practice repository! This repository is designed to 
 
 ## Purpose
 
-The purpose of this repository is to provide students with a hands-on learning experience where they can practice applying advanced CSS techniques in a practical project scenario. By working on this project, students will reinforce their understanding of CSS styling principles and gain confidence in using advanced CSS features.
+The purpose of this repository is to provide students with a hands-on learning experience where they can practice applying advanced CSS techniques including CSS variables, nesting, and imports in a practical project scenario. By working on this project, students will reinforce their understanding of CSS styling principles and gain confidence in using advanced CSS features.
+
+## The Comp
+<img width="1120" alt="Screenshot 2024-05-15 at 1 05 57 PM" src="https://github.com/turingschool-examples/advanced-css-ecommerce-dashboard/assets/25714149/b72cfab8-32a7-4f8c-8d2b-001ee8b90fd8">
+
 
 ## Setup Instructions
 
@@ -12,11 +16,11 @@ To get started with this project, follow these steps:
 
 1. **Clone the repository**: Clone this repository to your local machine using the following command:
 ```
-git clone <repository-url>
+git clone git@github.com:turingschool-examples/advanced-css-ecommerce-dashboard.git
 ```
 2. **Navigate to the project directory**: Move into the cloned repository directory:
 ```
-cd advanced-css-practice
+cd advanced-css-ecommerce-dashboard
 ```
 
 3. **Open the project in your code editor**: Use your preferred code editor to open the project files and start working on the exercises.
@@ -30,8 +34,6 @@ The project contains the following files and directories:
 - `README.md`: Markdown file providing setup instructions and project context.
 
 ## Getting Started
-
-Once you have set up the project, you can start practicing advanced CSS techniques by completing the following tasks:
 
 Once you have set up the project, you can start practicing advanced CSS techniques by completing the following tasks:
 
