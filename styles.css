@@ -1,0 +1,119 @@
+/* Reset default browser styles */
+html, body, header, main, footer {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define CSS variables */
+:root {
+  --primary-color: #007aff;
+  --secondary-color: #333;
+  --font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Global styles */
+body {
+  font-family: var(--font-family);
+  background-color: #f4f4f4;
+  color: var(--secondary-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 18px;
+}
+
+.product p {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+.orders {
+  margin-top: 40px;
+}
+
+.order-header {
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.order-header span {
+  display: inline-block;
+  width: 25%;
+}
+
+.orders h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.orders ul {
+  list-style-type: none;
+}
+
+.orders ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.orders ul li span {
+  flex: 1;
+  font-size: 16px;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
