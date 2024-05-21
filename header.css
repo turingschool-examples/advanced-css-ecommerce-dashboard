@@ -1,0 +1,21 @@
+header {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: var(--padding-medium);
+
+  nav {
+    ul {
+      list-style-type: none;
+      display: flex;
+
+      li {
+        margin-right: var(--padding-medium);
+
+        a {
+          color: var(--secondary-color);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

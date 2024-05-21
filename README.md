@@ -48,3 +48,10 @@ Refactor the CSS code to leverage nesting for better organization and readabilit
 ### Iteration 3: Modularizing Styles with Imports
 
 Break down the CSS code into modular files based on different components or sections of the dashboard. Use `@import` to import these modular CSS files into the main stylesheet, keeping the codebase organized and manageable.
+
+## Solution Branch
+A solution branch named `solution` is available for reference.  You can check out this branch to compare your implementation:
+
+```
+git checkout solution
+```

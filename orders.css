@@ -1,0 +1,34 @@
+.orders {
+  margin-top: var(--padding-large);
+
+  .order-header {
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: var(--padding-small);
+
+    span {
+      display: inline-block;
+      width: 25%;
+    }
+  }
+
+  h2 {
+    font-size: var(--font-size-large);
+    margin-bottom: var(--padding-medium);
+  }
+
+  ul {
+    list-style-type: none;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: var(--padding-small);
+
+      span {
+        flex: 1;
+        font-size: var(--font-size-small);
+      }
+    }
+  }
+}
