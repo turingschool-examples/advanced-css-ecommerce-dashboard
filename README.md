@@ -39,7 +39,7 @@ Once you have set up the project, you can start practicing advanced CSS techniqu
 
 ### Iteration 1: Using Variables
 
-Enhance the styling of the product items on the dashboard by utilizing CSS variables. Define variables for colors, font sizes, and other common styles to maintain consistency and facilitate easier customization.
+Refactor the CSS code to utilize CSS variables. Define variables for colors, font sizes, and other common styles to maintain consistency and facilitate easier customization.
 
 ### Iteration 2: Nesting Styles
 
